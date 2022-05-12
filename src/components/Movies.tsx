@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import { Flex, Image, VStack, Center, Text } from "@chakra-ui/react";
 
-type Props = {};
-
 const IMAGE_HEIGHT = "30%";
 const IMAGE_WIDTH = "415px"
 
-export default function Movies({}: Props) {
+export default function Movies() {
   const [currentMovie, setCurrentMovie] = useState("Select a Movie!");
   const handleMovieClick = (desc: string) => {
     setCurrentMovie(desc);

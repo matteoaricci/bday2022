@@ -1,9 +1,7 @@
 import React from "react";
 import { Flex, Text, Center, Image, VStack } from "@chakra-ui/react";
 
-type Props = {};
-
-export default function Final({}: Props) {
+export default function Final() {
   return (
     <Flex height="100vh" width="90%" margin="0 auto">
       <VStack height="100%">
@@ -20,12 +18,6 @@ export default function Final({}: Props) {
           <br />
         </Center>
           <Text>(The Gift is on the Way!!!)</Text>
-        {/* <Center height="50%">
-          <Text fontWeight="bold" fontSize="25px">
-            Happy Birthday Babe!
-            <br />I Love You to the Moon and Back!
-          </Text>
-        </Center>*/}
       </VStack>
       <Image src={require("../assets/bday_gift.jpg")} width="50%" />
     </Flex>

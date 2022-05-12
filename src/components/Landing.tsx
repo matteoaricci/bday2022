@@ -1,9 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { Text, Box, Center, Image } from "@chakra-ui/react";
 
-type Props = {};
-
-export default function Landing({}: Props) {
+export default function Landing() {
    let audio = new Audio(require("../assets/03-BigCountry.mp3"))
   
   return (

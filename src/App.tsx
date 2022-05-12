@@ -6,6 +6,7 @@ import TVshows from "./components/TVshows";
 import Movies from "./components/Movies";
 import Photos from "./components/Photos";
 import Final from "./components/Final"
+import "./app.css"
 
 export const App = () => (
   <ChakraProvider theme={theme}>

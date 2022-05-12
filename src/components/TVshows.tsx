@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { Flex, Image, VStack, Center, Text } from "@chakra-ui/react";
-
-type Props = {};
-
 const IMAGE_WIDTH = "30%";
 
-export default function TVshows({}: Props) {
+export default function TVshows() {
   const [currentShow, setCurrentShow] = useState("Select a show!");
   const handleShowClick = (desc: string) => {
     setCurrentShow(desc);
