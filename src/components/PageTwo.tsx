@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Center } from "@chakra-ui/react";
 
-type Props = {};
-
-export default function PageTwo({}: Props) {
+export default function PageTwo() {
   return (
     <Box height="100vh" width="90%" margin="0 auto">
       <Center h="100%" fontSize="5rem" width="100%">
